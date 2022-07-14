@@ -1,0 +1,166 @@
+.kirim_hisobot_heading {
+    width: 100%;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #289672;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+.kirim_cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.kirim_hisobot_card:nth-child(1) .kirim_hisobot_center_span::before {
+    content: "";
+    display: block;
+    background-image: url("./../../../../assets/icons/kirim_hisobot/kirim_hisobot_card1.svg");
+    width: 24px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 10px;
+  }
+.kirim_hisobot_card:nth-child(2) .kirim_hisobot_center_span::before {
+    content: "";
+    display: block;
+    background-image: url("./../../../../assets/icons/kirim_hisobot/kirim_hisobot_card2.svg");
+    width: 24px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 10px;
+  }
+.kirim_hisobot_card:nth-child(3) .kirim_hisobot_center_span::before {
+    content: "";
+    display: block;
+    background-image: url("./../../../../assets/icons/kirim_hisobot/kirim_hisobot_card3.svg");
+    width: 24px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 10px;
+  }
+.kirim_hisobot_card:nth-child(4) .kirim_hisobot_center_span::before {
+    content: "";
+    display: block;
+    background-image: url("./../../../../assets/icons/kirim_hisobot/kirim_hisobot_card4.svg");
+    width: 24px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 10px;
+  }
+
+.kirim_hisobot_card {
+    background: #ffffff;
+    border: 1px solid #289672;
+    border-radius: 12px;
+    width: 18.2%;
+  }
+.kirim_hisobot_top_button_left {
+    cursor: pointer;
+    padding: 10px 34px 10px 37px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background: #289672;
+    border: 2px solid #289672;
+    border-top-left-radius: 12px;
+  }
+.kirim_hisobot_top_buttons_left {
+    cursor: pointer;
+    font-family: "SF Pro Display";
+    padding: 10px 52px 10px 55.3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    background: #289672;
+    border: 2px solid #289672;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+.kirim_hisobot_top_button_left_active {
+    cursor: pointer;
+    padding: 10px 36px 10px 39px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: #fff;
+    border-top-left-radius: 12px;
+  }
+.kirim_hisobot_top {
+    border-bottom: 1px solid #289672;
+  }
+.kirim_hisobot_top_button_right_active {
+    cursor: pointer;
+    padding: 10px 36px 10px 32px; 
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    background: #289672;
+    border: 2px solid #289672;
+    border-top-right-radius: 12px;
+  }
+.kirim_hisobot_top_button_right {
+    cursor: pointer;
+    padding: 10px 36px 10px 36px;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222628;
+    background-color: white;
+    border-radius: 22px;
+  }
+  .kirim_hisobot_center_heading {
+    display: none;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222628;
+  }
+  
+  .kirim_hisobot_center_heading1 {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222628;
+  }
+  .kirim_hisobot_center_span {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222628;
+    opacity: 0.9;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 16px;
+  }
+  .kirim_hisobot_center {
+    padding: 28px 16px 16px 30px;
+  }
+    

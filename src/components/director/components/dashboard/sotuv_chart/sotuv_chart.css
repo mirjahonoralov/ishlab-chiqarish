@@ -1,0 +1,293 @@
+.Dashboard_charts__top {
+    justify-content: space-between;
+    display: flex;
+    border-top: 2px solid #dcdcdc;
+    border-bottom: 2px solid #dcdcdc;
+    width: 100%;
+  }
+  .Dashboard_chart__left {
+    width: 534px;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+  .Dashboard_chart__right {
+    width: 534px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .Dashboard_chart__right--span {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .Dashboard_chart__right--span {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .Dashboard_chart__left-left {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Dashboard_chart__left--span {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .Dashboard_chart__left--span-green {
+    cursor: pointer;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #289672;
+  }
+  .Dashboard_charts__center {
+    border-bottom: 2px solid #dcdcdc;
+  }
+  .Dashboard_charts__center {
+    justify-content: space-between;
+    display: flex;
+  }
+  .Dashboard_charts__center-left--span {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: flex;
+  }
+  .Dashboard_charts__center-left--span::after {
+    content: "";
+    display: block;
+    background-image: url("./../../../../Icons/Strelka_icons.svg");
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 10px;
+  }
+  .recharts-responsive-container {
+    margin-top: -20px !important;
+  }
+  .Dashboard_charts__bottom {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 17px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+  .headring_sotuv_dashboard_headring {
+    position: relative;
+    right: 50%;
+    background-color: #dcdcdc;
+    width: 0.1px;
+    border: 1px solid transparent;
+  }
+  .recharts-bar-rectangle path {
+    width: 15px !important;
+  }
+  .BarChart_TOP {
+    width: 96% !important;
+  }
+  .BarChart_TOP
+  .recharts-surface
+  .recharts-cartesian-axis
+  .recharts-cartesian-axis-ticks
+  .recharts-cartesian-axis-tick
+  text {
+  fill: #4f4f4f;
+  font-size: 12px;
+}
+.custom-tooltip {
+  margin-left: 20px;
+}
+.label {
+  background-color: #289672;
+  margin-left: -53px;
+  z-index: 10000;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 25px;
+  border-radius: 7px;
+  display: flex;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+}
+.label::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #289672;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  bottom: -9px;
+  right: 32px;
+  transform: rotate(180deg);
+}
+.recharts-bar-rectangle:hover path {
+  transition: 0.3s;
+  fill: #289672;
+  cursor: pointer;
+}
+.recharts-cartesian-axis-tick tspan {
+  fill: black;
+  position: relative;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  color: #4f4f4f;
+}
+.label::before {
+  top: 3px;
+  position: relative;
+  right: 5px;
+  content: "";
+  display: block;
+  background-image: url("./../../../../Icons/finance_icon2.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 12px;
+  font-size: 6px;
+  position: relative;
+}
+
+.css-pwcg7p-MuiCollapse-root {
+  padding: 0px 15px !important;
+}
+.css-ahj2mt-MuiTypography-root {
+  font-family: "SF Pro Display" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.04em !important;
+  color: #000000 !important;
+  padding: 0px 15px !important;
+}
+.Dashboard_charts__center-left:nth-child(2) {
+  width: 556px;
+  padding-left: 30px;
+  padding-right: 31px;
+  padding-top: 11px;
+  padding-bottom: 33px;
+}  
+.Dashboard_charts__center-left:nth-child(1) {
+  width: 556px;
+  padding-left: 30px;
+  padding-right: 31px;
+  padding-top: 11px;
+  padding-bottom: 31px;
+}
+.Dashboard_charts__center-right--span {
+  margin-left: 14px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  display: flex;
+}
+.recharts-wrapper {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Dashboard_charts__center-right--span::after {
+  content: "";
+  display: block;
+  background-image: url("./../../../../Icons/Strelka_icons.svg");
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 10px;
+}
+.Dashboard_charts__center-right {
+  position: relative;
+  padding-top: 14px;
+  border-left: 2px solid #dcdcdc;
+  width: 560px;
+  right: 46px;
+  padding-left: 30px;
+}
+.recharts-legend-wrapper {
+  display: none;
+}
+.custom-tooltip2 {
+  background-color: #289672;
+  margin-left: -60px;
+  z-index: 10000;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-right: 8px;
+  padding-left: 25px;
+  border-radius: 7px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-top: -18px;
+}
+.custom-tooltip2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #289672;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  bottom: -9px;
+  right: 45px;
+  transform: rotate(180deg);
+}
+.intro2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.label2 {
+  display: flex;
+}
+.label2::before {
+  top: 3px;
+  position: relative;
+  right: 5px;
+  content: "";
+  display: block;
+  background-image: url("./../../../../Icons/finance_icon2.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 12px;
+  font-size: 6px;
+  position: relative;
+}

@@ -1,0 +1,159 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+:root {
+  --blue: #289672;
+}
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI;
+}
+
+.delet_img {
+  width: 30px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background: #f4f4f4;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:before {
+  display: none;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  box-shadow: 0px 0px 0px 0px white !important;
+}
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  width: 278px !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+    width: calc(80px + 1px) !important;
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+/* Sidebar drawer */
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  z-index: 1201 !important;
+  overflow-y: initial !important;
+}
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+  overflow-x: initial !important;
+}
+
+.css-pwcg7p-MuiCollapse-root {
+  padding: 0px !important;
+}
+
+/* ------- Common table ----------- */
+
+.css-15v22id-MuiAccordionDetails-root {
+  padding: 0 !important;
+}
+
+/* ------------ Pagination ------------- */
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+  border: none !important;
+  border-radius: 8px !important;
+  background: #f1f7ff !important;
+}
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: #289672 !important;
+  color: #fff !important;
+}
+
+/* --------- selection in filter ------------ */
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-left: 0 !important;
+}
+
+/* -------- Search input in filter --------  */
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 50px !important;
+  /* padding: 0px !important ; */
+  height: 40px !important;
+}
+
+.css-16awh2u-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  .MuiAutocomplete-input {
+  padding: 0 !important;
+  padding-left: 20px !important;
+}
+
+/* label */
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #000 !important;
+}
+
+@keyframes filter_animation {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.filter-animation {
+  animation-name: filter_animation;
+  animation-duration: 1s;
+}
+
+/* -------------- ombordagi qodiq page selection --------------- */
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  padding-left: 15px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  border: 1px solid silver !important;
+}
+
+.css-1z7n62 {
+  display: none !important;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* for header */
+.css-1191obr-MuiPaper-root-MuiAppBar-root {
+  margin-left: 0 !important;
+}
+.css-1v1qs4 {
+  display: none;
+}
+
+.MuiPaper-root {
+  border-bottom: 1px solid silver !important;
+}

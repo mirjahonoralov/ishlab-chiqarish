@@ -1,0 +1,14 @@
+.tolov_Table {
+    border-top: 2px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  .headering_tolov {
+    width: 100%;
+    background-color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    height: 0.1px;
+    bottom: 970px;
+}

@@ -1,0 +1,23 @@
+.dashboard_ombor_top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    font-family: "SF Pro Display" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    color: #ffffff !important;
+    margin-left: 5px !important;
+    padding: 15px 30px !important;
+    background: #e87f45 !important;
+    border-radius: 30px !important;
+  }
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root::before {
+    content: "+";
+    font-weight: 500 !important;
+    position: relative;
+    right: 5px;
+}
